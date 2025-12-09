@@ -1,0 +1,116 @@
+
+
+<head>
+<meta charset="utf-8">
+<title>Przepis na szarlotkę</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 24px; color: #222; line-height: 1.4; }
+  .serif { font-family: "Times New Roman", Times, serif; }
+  .mono  { font-family: "Courier New", Courier, monospace; }
+
+  .big { font-size: 20px; }
+  .med { font-size: 16px; }
+  .small { font-size: 13px; }
+
+  .red { color: #b22222; }
+  .blue { color: #1e90ff; }
+  .green { color: #2e8b57; }
+
+  u { text-decoration: underline; }
+  hr { margin: 18px 0; }
+
+  ul.square { list-style-type: square; }
+
+  table { width: 70%; border-collapse: collapse; margin-top: 12px; }
+  th, td { border: 1px solid #999; padding: 10px; text-align: center; vertical-align: middle; }
+  th.header { background: #f7c873; } /* pierwszy wiersz wypełniony kolorem */
+
+  a.materials { color: #0b63c6; text-decoration: none; border-bottom: 1px dotted #0b63c6; }
+  a.materials:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1 class="serif big">Szarlotka domowa</h1>
+<img src="./FOTO/Szarlotka.jpg">
+<h2 class="med">Składniki</h2>
+<p><strong>Ciasto:</strong> 2 szklanki mąki, 200g masła, 1 <em>żółtko</em>.</p>
+<p><u>Nadzienie:</u> ~1 kg jabłek, 100 g cukru, cynamon do smaku.</p>
+
+<hr>
+
+<h3 class="med">Przygotowanie (krótko)</h3>
+<ol type="A">
+  <li>Wymieszaj mąkę z zimnym masłem i żółtkiem — zagnieć ciasto.</li>
+  <li>Obierz i pokrój jabłka, podsmaż z cukrem i cynamonem.</li>
+  <li>Włóż do formy, przykryj wierzchem i piecz 45–55 min w 180°C.</li>
+</ol>
+
+<ul class="square">
+  <li><strong>Schłodź</strong> ciasto przed wałkowaniem.</li>
+  <li><em>Równo</em> rozłóż jabłka.</li>
+  <li><u>Posyp</u> cukrem pudrem po wystudzeniu.</li>
+</ul>
+
+<dl>
+  <dt><strong>Porcja</strong></dt>
+  <dd>ok. 8 kawałków</dd>
+
+  <dt><strong>Czas przygotowania</strong></dt>
+  <dd>ok. 1 godz. 30 min (przygotowanie + pieczenie)</dd>
+</dl>
+
+<hr>
+
+<h3 class="med">Tabela składników (przykład)</h3>
+<table>
+  <!-- pierwszy wiersz nagłówków, wypełniony kolorem -->
+  <tr>
+    <th class="header">Składnik</th>
+    <th class="header">Ilość</th>
+    <th class="header">Uwagi</th>
+  </tr>
+
+  <!-- wiersz 1: połączenie pionowe (rowspan) w pierwszej kolumnie -->
+  <tr>
+    <td rowspan="2">Mąka</td>
+    <td>2 szklanki</td>
+    <td>przesiana</td>
+  </tr>
+  <!-- wiersz 2: kontynuacja rowspan -->
+  <tr>
+    <td>opcjonalnie 1/2 szklanki</td>
+    <td>do pracy wilgotniejszego ciasta</td>
+  </tr>
+
+  <!-- wiersz 3: tutaj scalone poziomo (colspan) w drugiej i trzeciej kolumnie -->
+  <tr>
+    <td>Masło</td>
+    <td colspan="2">200 g, zimne (do kruszonki lub ciasta)</td>
+  </tr>
+
+  <!-- wiersz 4 -->
+  <tr>
+    <td>Jabłka</td>
+    <td>ok. 1 kg</td>
+    <td>kwaśne odmiany dobre do pieczenia</td>
+  </tr>
+
+  <!-- wiersz 5 -->
+  <tr>
+    <td>Cukier</td>
+    <td>100 g</td>
+    <td>do nadzienia (reguluj smak)</td>
+  </tr>
+</table>
+
+<p> link do przepisu : https://www.kwestiasmaku.com/przepis/szarlotka </p>
+
+<hr>
+
+<p class="small serif blue">Przydatne materiały i metody: 
+<a class="materials" href="https://example.com/materiały-szarlotka" target="_blank" rel="noopener noreferrer">Materiały pomocnicze</a>
+</p>
+
+<footer style="margin-top:18px; font-size:13px;">
+  <p class="mono
